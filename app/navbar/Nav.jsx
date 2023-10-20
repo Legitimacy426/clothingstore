@@ -18,7 +18,7 @@ const Nav = () => {
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost normal-case text-xl">cryingSaturn</a>
+    <a className="btn btn-ghost normal-case text-xl"><i></i></a>
   </div>
   <div className="navbar-end">
 

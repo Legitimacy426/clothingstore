@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Products = () => {
@@ -9,7 +10,7 @@ const Products = () => {
     </div>
   <div className="grid gap-3 md:grid-cols-3 grid-cols-1 ">
     <div className="card border-2  ">
- <img src="/images/img1.jpeg" alt="Shoes" />
+<Image width={500}  height={300} src="/images/img1.jpeg" alt="Shoes" />
   <div className="card-body">
     <h2 className="card-title">
       Shoes!
@@ -23,7 +24,7 @@ const Products = () => {
   </div>
 </div>
 <div className="card border-2  ">
- <img src="/images/img10.jpeg" alt="Shoes" />
+<Image width={500}  height={300} src="/images/img10.jpeg" alt="Shoes" />
   <div className="card-body">
     <h2 className="card-title">
       Shoes!
@@ -37,7 +38,7 @@ const Products = () => {
   </div>
 </div>
 <div className="card border-2  ">
- <img src="/images/img2.jpeg" alt="Shoes" />
+<Image width={500}  height={300} src="/images/img2.jpeg" alt="Shoes" />
   <div className="card-body">
     <h2 className="card-title">
       Shoes!

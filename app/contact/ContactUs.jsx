@@ -29,7 +29,7 @@ const Contact = () => {
           <label className="label">
             <span className="label-text">Messege</span>
           </label>
-         <textarea placeholder='Write something...' name="" id="" cols="30" rows="10" className='input input-bordered'></textarea>
+         <textarea placeholder="write something" name="" id="" cols="30" rows="10" className='input input-bordered'></textarea>
           
         </div>
         <div className="form-control mt-6">
