@@ -7,7 +7,7 @@ const Contact = () => {
   <div className="hero-content flex-col gap-20 lg:flex-row-reverse">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold py-2">TALK TO US</h1>
-      <p className="">We're here to help and answer any quuestions you</p>
+      <p className="">We are here to help and answer any quuestions you</p>
       <p className="">might have.We look forward to hearing from you</p>
     </div>
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

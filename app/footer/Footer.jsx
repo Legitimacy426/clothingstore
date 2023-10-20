@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
@@ -27,7 +28,7 @@ const Footer = () => {
 </footer> 
 <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
   <aside className="items-center grid-flow-col">
-    <img src="images/cryingsatan.jpeg" alt=""  className='w-10 h-10'/>
+  <Image width={40} height={40} src="/images/cryingsatan.jpeg" alt="logo"  className='w-10 h-10'/>
     <p>Crying Saturn. <br/>A Holy Body from Space</p>
   </aside> 
   <nav className="md:place-self-center md:justify-self-end">
